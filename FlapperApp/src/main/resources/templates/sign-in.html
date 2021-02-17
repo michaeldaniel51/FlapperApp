@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Student login</title>
+</head>
+<body>
+
+<form role="form"th:action="@{/sign-in}" th:method="post">
+
+    <label>Username</label>
+    <input type="text" id="username" name="username">
+
+
+    <label>Password</label>
+    <input type="password" id="password" name="password">
+
+
+    <input type="submit">
+
+    <div class="margin-top20 text-center">Dont have an account?<a th:href="@{/sign-up}">Create an account</a></div>
+</form>
+
+</body>
+</html>
