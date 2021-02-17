@@ -1,6 +1,8 @@
-package com.daniel.flapperapp;
+package com.daniel.flapperapp.services;
 
 
+import com.daniel.flapperapp.entities.ConfirmationToken;
+import com.daniel.flapperapp.repositories.ConfirmationTokenRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

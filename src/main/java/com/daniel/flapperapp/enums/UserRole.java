@@ -1,4 +1,4 @@
-package com.daniel.flapperapp;
+package com.daniel.flapperapp.enums;
 
 public enum UserRole {
 

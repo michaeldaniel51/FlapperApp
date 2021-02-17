@@ -1,6 +1,9 @@
-package com.daniel.flapperapp;
+package com.daniel.flapperapp.services;
 
 import com.daniel.flapperapp.entities.Student;
+import com.daniel.flapperapp.entities.Transaction;
+import com.daniel.flapperapp.repositories.TransactionRepository;
+import com.daniel.flapperapp.services.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Optional;
@@ -11,7 +14,7 @@ public class TransactionService {
     TransactionRepository transactionRepository;
 
     @Autowired
-     StudentService studentService;
+    StudentService studentService;
 
 
 

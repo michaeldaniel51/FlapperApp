@@ -1,5 +1,7 @@
-package com.daniel.flapperapp;
+package com.daniel.flapperapp.controllers;
 
+import com.daniel.flapperapp.services.ConfirmationTokenService;
+import com.daniel.flapperapp.services.StudentService;
 import com.daniel.flapperapp.entities.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

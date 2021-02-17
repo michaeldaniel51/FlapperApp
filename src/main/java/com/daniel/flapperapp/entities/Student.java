@@ -1,8 +1,7 @@
 package com.daniel.flapperapp.entities;
 
 
-import com.daniel.flapperapp.Transaction;
-import com.daniel.flapperapp.UserRole;
+import com.daniel.flapperapp.enums.UserRole;
 import lombok.Builder;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;

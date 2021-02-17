@@ -1,4 +1,4 @@
-package com.daniel.flapperapp;
+package com.daniel.flapperapp.repositories;
 
 import com.daniel.flapperapp.entities.Student;
 import org.springframework.data.repository.CrudRepository;

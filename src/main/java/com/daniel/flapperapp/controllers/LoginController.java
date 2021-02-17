@@ -1,4 +1,4 @@
-package com.daniel.flapperapp;
+package com.daniel.flapperapp.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

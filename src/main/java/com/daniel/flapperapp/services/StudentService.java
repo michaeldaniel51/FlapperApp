@@ -1,6 +1,9 @@
-package com.daniel.flapperapp;
+package com.daniel.flapperapp.services;
 
+import com.daniel.flapperapp.entities.ConfirmationToken;
 import com.daniel.flapperapp.entities.Student;
+import com.daniel.flapperapp.repositories.ConfirmationTokenRepository;
+import com.daniel.flapperapp.repositories.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.security.core.userdetails.UserDetails;
